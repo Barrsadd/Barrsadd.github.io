@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Unit Converter</title>
+</head>
+<body>
+    
+    
+    <main>
+        <section class="section-1">
+            <h1>Metric/imperial unit conversion</h1>
+            <input oninput="unitConverter()" id="input-el" type="value">
+        </section>
+        <section class="section-2">
+            <div class="meter-to-feet">
+                <h3>Meter to feet</h3>
+                <span><span id="meter-input">0</span> meters = <span id="feet-result"></span> feet || </span><span><span id="feet-input">0</span> feet = <span id="meter-result">0</span> meters</span>
+            </div>
+            <div class="liter-to-gallons">
+                <h3>Liter to gallons</h3>
+                <span><span id="liter-input">0</span> liters = <span id="gallon-result">0</span> gallons || </span><span><span id="gallon-input">0</span> gallons = <span id="liter-result">0</span> liter</span>
+            </div>
+            <div class="kilograms-to-pounds">
+                <h3>kilograms to pounds</h3>
+                <span><span id="kg-input">0</span> kilograms = <span id="pounds-result">0</span> pounds || </span><span><span id="pounds-input">0</span> pounds = <span id="kg-result">0</span> kilograms</span>
+            </div>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
